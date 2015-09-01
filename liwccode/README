@@ -1,0 +1,7 @@
+levNO-synYES-alllang.R is the program which generates LIWC for the test data
+The program assumes that the test data's csv file is named as stage2Dutch.csv, stage2Italian.csv, stage2Spanish.csv, dataExtr1.csv
+Run this proggram first using Rscript levNO-synYES-alllang.R, it will generate a file called test.csv which basically conntains the LIWC for the test data
+
+Now run java -jar myjar.jar which will generate arff files and do prediction, it will create an output file called results
+
+Then we have to run generatefinalxml.R which converts the results into an xml format, but I haven't completed this, won't take much time.

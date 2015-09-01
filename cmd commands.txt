@@ -1,0 +1,19 @@
+final training
+--------------
+myTrainingSoftwareEn.bat -i "E:\author-profiling\pan15-author-profiling-training-dataset-english-2015-04-23" -o "C:\Users\arroju15\pansubmission\trainOutput\english"
+
+myTrainingSoftwareEs.bat -i "E:\author-profiling\pan15-author-profiling-training-dataset-spanish-2015-04-23" -o "C:\Users\arroju15\pansubmission\trainOutput\spanish"
+
+myTrainingSoftwareIt.bat -i "E:\author-profiling\pan15-author-profiling-training-dataset-italian-2015-04-23" -o "C:\Users\arroju15\pansubmission\trainOutput\italian"
+
+myTrainingSoftwareNl.bat -i "E:\author-profiling\pan15-author-profiling-training-dataset-dutch-2015-04-23" -o "C:\Users\arroju15\pansubmission\trainOutput\dutch"
+
+final testing
+-------------
+myTestingSoftwareEn.bat -i "C:\Users\arroju15\pansubmission\testData" -m "C:\Users\arroju15\pansubmission\trainOutput\english" -o "C:\Users\arroju15\pansubmission\testOutput\english"
+
+myTestingSoftwareEs.bat -i "C:\Users\arroju15\pansubmission\testData" -m "C:\Users\arroju15\pansubmission\trainOutput\spanish" -o "C:\Users\arroju15\pansubmission\testOutput\spanish"
+
+myTestingSoftwareIt.bat -i "C:\Users\arroju15\pansubmission\testData" -m "C:\Users\arroju15\pansubmission\trainOutput\italian" -o "C:\Users\arroju15\pansubmission\testOutput\italian"
+
+myTestingSoftwareNl.bat -i "C:\Users\arroju15\pansubmission\testData" -m "C:\Users\arroju15\pansubmission\trainOutput\dutch" -o "C:\Users\arroju15\pansubmission\testOutput\dutch"
